@@ -1,0 +1,23 @@
+.loader__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@keyframes loader {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.loader__body {
+  height: 100px;
+  width: 100px;
+  border: 3px dashed royalblue;
+  border-radius: 50%;
+  animation: loader 1s linear infinite;
+}

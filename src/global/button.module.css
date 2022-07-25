@@ -1,0 +1,16 @@
+.button {
+  padding: 5px 10px;
+  background-color: aquamarine;
+  color: rgb(53, 48, 4);
+  border: 1px solid cornflowerblue; 
+  cursor: pointer;
+}
+
+.button__active {
+  background-color: rebeccapurple;
+  color: wheat;
+}
+
+.button:hover {
+  background-color: cornflowerblue;
+}
